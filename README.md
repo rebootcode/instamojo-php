@@ -48,7 +48,7 @@ This will give you JSON object containing details of the Payment Request that wa
 
 ```php
 try {
-    $response = $api->paymentRequestStatus(['PAYMENT REQUEST ID']);
+    $response = $api->paymentRequestStatus('PAYMENT-REQUEST-ID');
     print_r($response);
 }
 catch (Exception $e) {
